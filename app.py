@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-import plotly.graph_objects as go
+import plotly
+import graph_objects as go
 import plotly.express as px
 from datetime import datetime
 import re
@@ -729,4 +730,5 @@ st.markdown("""
         <p>🤖 Powered by AI Analysis | Built with Streamlit & Plotly</p>
         <p style="font-size: 0.9em;">For best results, ensure clear speaker labels in transcript format</p>
     </div>
+
     """, unsafe_allow_html=True)
