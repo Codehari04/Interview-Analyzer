@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly as pl
-import graph_objects as go
+import plotly.graph_objects as go
 import plotly.express as px
 from datetime import datetime
 import re
@@ -732,4 +731,5 @@ st.markdown("""
     </div>
 
     """, unsafe_allow_html=True)
+
 
